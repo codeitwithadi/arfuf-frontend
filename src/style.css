@@ -1,0 +1,1107 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+     overflow-x: hidden;
+
+} 
+.container-fluid {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.navbar-toggler i {
+    color: white;
+}
+.btn:focus{
+    outline:0;
+    box-shadow:none;
+}
+.btn-primary:focus{
+    box-shadow:none;
+}
+.form-control:focus {
+    outline: 0; 
+    box-shadow: none;
+    border-color: black;
+}
+#beemur-layout{
+    background: #F6F6F6;
+}
+
+p{
+    margin-bottom:0;
+}
+hr {
+    margin: 0.8rem 0;
+}
+/*=======================header css=========================*/
+#header{
+    background-color:white;
+}
+#header nav.navbar.navbar-expand-lg {
+    padding: 0 1rem;
+}
+
+#header .dropdown-menu a {
+    color: black;
+    margin-top: 0px;
+}
+#header .profile-details {
+    text-align: left;
+    margin: 0.5rem;
+}
+#header .profile-details p {
+    font-size: 12px;
+}
+#header .profile-details h6 {
+    font-size: 14px;
+    margin-bottom: 0.3rem;
+}
+.top-header {
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 1;
+    align-items: center;
+}
+.navbar-brand{
+	width: 50px;
+}
+/*=======================end header css=========================*/
+
+/*=======================sign in css=========================*/
+.merchant-login form .form-group span {
+    position: absolute;
+    padding:11px 10px;
+    font-size: 20px;
+    color: #713C75;
+    left: 4rem;
+}
+.merchant-sign-in {
+    background: white;
+    padding: 2rem 3rem;
+    margin: 2rem 0;
+}
+.merchant-login form .form-group .form-control {
+    padding: 1rem 2.75rem;
+    font-size: 14px;
+    border-color: #D2D2D2;
+}
+.reset-password p {
+    font-size: 14px;
+    font-weight: 400;
+}
+.reset-password a {
+    color:#713C75;
+}
+/*=======================end sign in css=========================*/
+
+
+
+/*=======================sidebar css=========================*/
+section#mystore-shop .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+#side-bar-content{
+    max-width: 250px;
+    flex: unset;
+    padding-right: 0;
+    
+}
+#side-bar{
+    padding-top: 1rem;
+    background-color:white;
+    height: 100%;
+    overflow: hidden;
+    min-height: calc(100vh - 60px);
+    height:100%; 
+}
+ul#side-menu {
+    list-style: none;
+    padding: 0
+}
+ul#side-menu li {
+    margin-bottom: 1rem;
+    margin-left: 7px;
+}
+ul#side-menu ul li {
+    margin-bottom: 0;
+    margin-top: 0.5rem;
+}
+ul#side-menu li a.menu-link {
+    color: black;
+    text-decoration:none;
+    margin-left: 0.5rem;
+}
+li.menu-title.active  a.menu-link {
+    color: black!important;
+}
+ul#side-menu li.menu-title a span {
+    width: 12%;
+}
+ul.sub-menu {
+    list-style: none;
+    padding:0;
+}
+.top-header-menu li a{
+    color: black;
+    margin-right: 1.5rem;
+    margin-top: 0.8rem;
+}
+
+li.menu-title a {
+    color: black;
+    text-decoration:none;
+    font-size: 14px;
+    margin-left:27px;
+    font-weight: 500;
+}
+.sidebar-menu li.active  {
+    background:#713C75;
+    margin-right: 14px;
+    padding: 0.5rem 0;
+}
+/*=======================sidebar css=========================*/
+
+/*=======================start my store right sideright side=========================*/
+.navbar-toggler {
+    background-color: transparent;
+    border: 1px solid white;
+}
+#page-content{
+    max-width:calc(100% - 250px);
+    flex: unset;
+    padding-left: 0;
+}
+#main-content{
+    
+    margin: 1rem;
+}
+.mystore{
+    background: #FFFFFF;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.mystore.beemur-store {
+    background: #713C75;
+}
+.mystore-shop-edit {
+    float: right;
+    text-align: center;
+}
+.mystore-shop-edit p {
+    font-size: 14px;
+    margin-top: 0.3rem;
+}
+.Trade-license-img img {
+    width: 100%;
+}
+.cash-delivery .form-control {
+    font-size: 12px;
+    width: 45%;
+    float: right;
+}
+.form-group.cash-delivery {
+    display: contents;
+}
+button.btn.btn-primary.btn-edit-button {
+    background: #713C75;
+    border: 1px solid #713C75;
+    padding: 10px 20px;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 0;
+    color: black;
+}
+button.btn.btn-primary.btn-edit-button:hover {
+    background: transparent;
+    color: black;
+}
+.mystore-shop-title {
+    margin: 1rem;
+}
+.mystore-shop-title p {
+    color: #6C6C6C;
+}
+.mystore-shop-details {
+    margin-bottom: 1rem;
+}
+
+.mystore-shop-details p {
+    font-weight: 400;
+    font-size: 14px;
+    color:#959595;
+    margin-bottom: 3px;
+}
+.mystore-shop-details h6 {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.owl-next:before {
+    content: "\f105";
+    font-family: fontawesome;
+    position: absolute;
+    font-size: 24px;
+    right: 6px;
+    color: white;
+    top: 4px;
+    border-left: 2px solid;
+    padding-left: 7px;
+}
+.owl-prev:before {
+    content: "\f104";
+    font-family: fontawesome;
+    position: absolute;
+    font-size:24px;
+    right: 1.9rem;
+    color: white;
+    top: 4px;
+}
+.owl-prev,
+.owl-next{
+    font-size: 0;
+}
+
+.owl-nav {
+    background: #713C75;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    border-radius: 50%;
+    right: 1rem;
+    bottom: 3rem;
+}
+.mystore .bank-details-content h6 {
+    font-size: 14px;
+    margin-bottom:0.3rem;
+}   
+.mystore .bank-details-content p {
+    font-size: 12px;
+}
+.mystore .national-id-proof .id-card{
+    margin-bottom: 1rem;
+}
+.uplaoad-doc{
+    padding-left: 0px;
+}
+.file-upload-wrapper {
+    position: relative;
+    width: 100%;
+    height: 42px;
+    border: 1px solid #959595;
+    border-radius: .25rem;
+}
+.file-upload-wrapper:after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    font-size: 14px;
+    padding: 10px 15px;
+    display: block;
+    width: 100%;
+    pointer-events: none;
+    overflow: hidden;
+    z-index: 20;
+    height: 40px;
+    color: #000000;
+    border-radius: 5px 10px 10px 5px;
+    font-weight: 300;
+}
+
+.file-upload-wrapper:hover:before {
+    background: #3d8c63;
+}
+.file-upload-wrapper input {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    cursor: pointer;
+    width: 100%;
+}
+
+/*=======================end my store right side=========================*/
+
+
+/*=======================addproduct step2 right side=========================*/
+.mystore .category .nav-tabs .nav-link{
+    border:0;
+    padding: 0 0.8rem 0.8rem 0;
+}
+.mystore .category .nav-tabs{
+    border-bottom:0;
+}
+.mystore .category .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #713C75;
+    background-color: transparent;
+    font-weight: 600;
+
+}
+.mystore .category .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link{
+    color: #D7D7D7;
+}
+.mystore a#profile-tab:before {
+    content: "|";
+    padding-right: 13px;
+}
+.form-control {
+    border: 1px solid #959595;
+    color: black;
+    font-size:14px;
+    height: 42px;
+}
+.input-group-text {
+    background-color: transparent;
+    border: 1px solid #959595;
+    font-size:14px;
+}
+.customizable-product{
+    margin-right: -10px;
+    margin-left: 0px;
+}
+.customizable-content{
+    padding-right: 8px;
+    padding-left: 0px;
+}
+
+.customizable-content input.form-control.input-one {
+    padding-right: 10px;
+}
+.customizable-content input.form-control.input-two {
+    width: 70px;
+    float: unset;
+    max-width: 70px;
+}
+.preview {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  @media screen and (max-width: 996px) {
+    .preview {
+      margin-bottom: 0px; } }
+.preview-pic {
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0; }
+
+
+.preview-thumbnail.nav-tabs {
+  border: none;
+  margin-top: 0px; }
+  .preview-thumbnail.nav-tabs li {
+    width: 10%;
+    margin-right: 2.5%; }
+    .preview-thumbnail.nav-tabs li img {
+      max-width: 100%;
+      display: block; }
+    .preview-thumbnail.nav-tabs li a {
+      padding: 0;
+      margin: 0; }
+    .preview-thumbnail.nav-tabs li:last-of-type {
+      margin-right: 0; }
+.preview-thumbnail.nav-tabs li .add-more-product-details{
+    margin-top: 0px;
+    padding: 12px;
+}
+
+.preview-pic.tab-content {
+  overflow: hidden; 
+}
+.preview-pic.tab-content img {
+    width: 100%;
+    -webkit-animation-name: opacity;
+            animation-name: opacity;
+    -webkit-animation-duration: .3s;
+            animation-duration: .3s; }
+@media screen and (min-width: 997px) {
+  .wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; } }
+
+
+.tooltip-inner {
+  padding: 1.3em; }
+
+@-webkit-keyframes opacity {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(3);
+            transform: scale(3); }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(3);
+            transform: scale(3); }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+/*=======================end addproduct step2 right side=========================*/
+
+/*=======================addproduct step3 right side=========================*/
+#myCarousel .list-inline {
+    white-space:nowrap;
+    overflow-x:auto;
+}
+
+#myCarousel .carousel-indicators {
+    position: static;
+    left: initial;
+    width: initial;
+    margin-left: initial;
+}
+
+#myCarousel .carousel-indicators > li {
+    width: initial;
+    height: initial;
+    text-indent: initial;
+}
+
+.add-more-product{
+    float:left;
+}
+.add-more-product a{
+    text-decoration: none;
+}
+.add-more-product h6{
+    color: black;
+    font-weight: 500;
+    margin-bottom: 0;
+    font-size: 14px;
+    margin-top: 5px
+}
+.add-more-product-details {
+    background: #F7F7F7;
+    border: 1px solid #F7F7F7;
+    border-radius: 6px;
+    text-align: center;
+    padding: 24px;
+    margin-top: 10px;
+}
+.add-more-product-details span.fa.fa-plus {
+    background: #713C75;
+    color: black;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    line-height: 2;
+}
+.close-icon {
+    width: 30px;
+    height: 30px;
+    background: #E2E2E2;
+    border-radius: 50%;
+    color: black;
+    text-align: center;
+}
+.plus-icon{
+    background: #713C75;
+}
+/*=======================end addproduct step3 right side=========================*/
+
+/*=======================inventory page css right side=========================*/
+.inventory-details {
+    display: inline-block;
+    margin-right: 8px;
+}
+.mystore.inventory-product {
+    width: 19%;
+    display: inline-block;
+    margin-right: 7px;
+}
+.inventory-product-details p {
+    font-size: 14px;
+}
+.inventory-product-details p span {
+    float: right;
+    font-weight: 500;
+}
+span.inventory-countory{
+    background: #EEEEEE;
+    font-size: 10px;
+    font-weight: 500;
+    border: 1px solid  #EEEEEE;
+    border-radius: 2px;
+    padding: 1px 6px;
+}
+.inventory-product-details h6 {
+    margin: 3px 0;
+}
+.inventory-details input {
+    padding-right: 7rem;
+}
+h5.product-total-number {
+    border: 3px solid #D2D2D2;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    line-height: 3.5;
+    text-align: center;
+    margin: auto;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 0.5rem;
+}
+.inventory-product-number span {
+    color: #713C75;
+    margin: 0.7rem;
+}
+button.btn.btn-secondary.btn-remove-button {
+    background: transparent;
+    color: black;
+    font-weight: 500;
+    border: 2px solid #713C75;
+    border-radius: 0;
+    padding: 9px 10px;
+}
+
+/*-----inventory table-------*/
+.inventory-new-entry {
+    display: flex;
+    justify-content: space-between;
+}
+.btn-new-entry a {
+    background: transparent;
+    color: black;
+    border-color:#713C75;
+    padding: 5px 25px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.btn-new-entry a:hover {
+    background: #713C75;
+    border-color:#713C75;
+}
+.inventory-latest-order span {
+    font-size: 12px;
+}
+.table-responsive.new-order-table table thead th {
+    font-weight: 600;
+    border-bottom: 1px solid #dee2e6;
+    border-top: 0;
+    padding:.55rem;
+}
+.table-responsive.new-order-table table td {
+    font-size: 14px;
+    vertical-align: middle;
+    padding: .55rem;
+}
+.table-responsive.new-order-table table td a {
+    color: black;
+    text-decoration: none;
+}
+.table-responsive.new-order-table table span{
+    color: #9EA0A5
+}
+.table-responsive.new-order-table table span.order-time{
+    font-size:12px;
+}
+.new-order-table i {
+    color: #47B881;
+    font-size: 10px;
+    margin-right: 7px;
+}
+.showing-order .form-control {
+    padding: 0 .75rem;
+    height: calc(1.3em + .075rem + 2px);
+    font-size:12px;
+    color: gray;
+}
+.order-rows p {
+    font-size: 12px;
+    color: gray;
+}
+.angle {
+    margin-top: -3px;
+}
+.angle span {
+    margin-left: 16px;
+}
+/*-----inventory table-------*/
+/*=======================end inventory page css right side=========================*/
+
+/*=======================order tracking css=========================*/
+.order-status select#exampleFormNewest {
+    width: 55%;
+    float: right;
+    border-color: #713C75;
+}
+.order-status h6 {
+    font-size: 14px;
+    float: left;
+}
+.order-track-info {
+    margin: auto;
+}
+.order-status {
+    float: right;
+}
+.order-delivered{
+    color: #713C75;
+}
+.profile-content p {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.profile-content {
+    margin-left: 1rem;
+}
+.profile-content h6 {
+    font-size: 14px;
+}
+.ratings span {
+    color: #713C75;
+    font-size: 12px;
+}
+.ratings {
+    margin-top: -4px;
+}
+.ratings .rating-point{
+    color: black;
+}
+.profile-content h6 {
+    margin-bottom: 2px;
+}
+.review-content h6 {
+    font-size: 14px;
+}
+/*------vertically order tracking progress bar----*/
+/*=======================end order tracking css=========================*/
+
+.custom-checkbox {
+    display: block;
+    position: relative;
+    padding-left: 18px;
+    margin-bottom: 0;
+    cursor: pointer;
+    font-size: 13px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.custom-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  height: 10px;
+  width: 10px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+/* When the checkbox is checked, add a blue background */
+.custom-checkbox input:checked ~ .checkmark {
+  background-color: #713C75;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+/* Show the checkmark when checked */
+.custom-checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+/* Style the checkmark/indicator */
+
+
+
+
+.custom-radio {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    color: #262626;
+    user-select: none;
+    font-weight: 500;
+    border: 1px solid #D2D2D2;
+    padding: 5px 25px;
+    border-radius:5px;
+}
+.custom-radio .checkmark {
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 1px solid #D2D2D2;
+    top: 10px;
+    left: 5px;
+}
+.custom-radio input:checked~.checkmark:after {
+    display: block;
+}
+.custom-radio .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.custom-radio .checkmark:after {
+    top: -2px;
+    left: -2px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #713C75;
+}
+.custom-radio input:checked~.checkmark:after {
+    display: block;
+}
+.custom-radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.custom-radio input:checked~.checkmark {
+    border: 1px solid #313132;
+}
+
+/*=======================end sign up css=========================*/
+
+.merchant-sign-in.merchant-signup {
+    padding: 2rem;
+}
+.lifestle-shop{
+    background-color: #F6F6F6;
+    border-radius: 10px;
+}
+.register-form p {
+    font-size: 14px;
+}
+h6.business-title {
+    padding: 0.6rem 0;
+    color: #713C75;
+}
+.shop-left-content {
+    padding: 1rem;
+    margin: 1re;
+}
+.lifestle-shop {
+    background-color: #F6F6F6;
+    border-radius: 10px;
+    margin: 1rem 0;
+}
+.shop-left-content h6 {
+    margin-bottom: 0;
+}
+.shop-left-content p {
+    font-size: 14px;
+    color: #6C6C6C;
+}
+.shop-right-content {
+    margin: auto 1rem;
+}
+.shop-right-content a {
+    float: right;
+    color: #713C75;
+    font-size:12px;
+}
+.app-content p {
+    font-size: 10px;
+    color: #6C6C6C;
+    margin-top: 1rem;
+}
+.merchant-signup form .form-group .form-control {
+    padding: 1rem .75rem;
+}
+.terms-conditions .form-check label a {
+    color: #713C75;
+}
+/*=======================end sign up css=========================*/
+
+/*=======================searching driver page css=========================*/
+
+.delivery-details {
+    display: inline-block;
+}
+.delivery-details {
+    display: inline-block;
+    margin-right: 5px;
+}
+.delivery-details button.btn.btn-primary.btn-edit-button {
+    border-radius: 5px;
+    padding: 9px 20px;
+    margin-top: -4px;
+}
+img.polygon {
+    position: absolute;
+    left: 3.8rem;
+    top: 1rem;
+}
+.indicator {
+    border: 1px solid;
+    width: 1px;
+    height: 100%;
+    color: #D2D2D2;
+    margin-left: 4rem;
+}
+.driver-vehicle-details span {
+    float: right;
+    font-size: 14px;
+    font-weight:400;
+}
+.driver-vehicle-details p {
+    font-size: 14px;
+    font-weight: 500;
+}
+.product-rating{
+    margin: auto;
+}
+.product-rating .ratings {
+    float: right;
+    margin-top: 0;
+}
+.product-content p{
+    font-size:12px;
+    font-weight:400;
+}
+/*=======================end searching driver page css=========================*/
+
+.form-group.shop-close-timing .form-control {
+    padding: 0 2rem;
+}
+.shop-close i{
+    font-size: 12px;
+    display: contents;
+    color: #DADADA;
+}
+.shop-close span {
+    margin-left: 7px;
+    font-size: 12px;
+}
+.shop-close {
+    margin: 0.5rem 0;
+}
+h6.shop-day {
+    font-size: 14px;
+    margin: 0.8rem 0;
+}
+.mystore-shop-info-one {
+    padding-left: 0;
+}
+
+h6.shop-title {
+    margin-bottom: 1rem;
+}
+.customizable-content-one {
+    width: 28%;
+    margin-left: 13px;
+}
+.cod-available span {
+    width: 40px;
+    height: 40px;
+    background: #713C75;
+    border: 1px solid #713C75;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 2.3;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+.shop-time .checkmark {
+    top: 14px;
+}
+input.form-control.input-one {
+    padding-right: 46px;
+}
+
+/*==========step bar vertical================================*/
+.bs-vertical-wizard {
+    border-right: 1px solid #eaecf1;
+    padding-bottom: 50px;
+}
+
+.bs-vertical-wizard ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.bs-vertical-wizard ul>li {
+    display: block;
+    position: relative;
+}
+
+.bs-vertical-wizard ul>li>a {
+    display: block;
+    padding: 12px 10px 10px 40px;
+    color: #333c4e;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration:none;
+}
+.bs-vertical-wizard ul>li>a:before {
+    content: '';
+    position: absolute;
+    width: 1.5px;
+    height: calc(100% - 14px);
+    background-color: #EEEEEE;
+    left: 13px;
+    bottom: -14px;
+    z-index: 3;
+}
+
+.bs-vertical-wizard ul>li>a .ico {
+    pointer-events: none;
+    font-size: 14px;
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    z-index: 2;
+}
+
+.bs-vertical-wizard ul>li>a:after {
+    content: '';
+    position: absolute;
+    border: 2px solid #EEEEEE;
+    border-radius: 50%;
+    top: 14px;
+    left: 6px;
+    width: 16px;
+    height: 16px;
+    z-index: 3;
+}
+
+.bs-vertical-wizard ul>li>a .desc {
+    display: block;
+    color: #6C6C6C;
+    font-size: 12px;
+    font-weight: 400;
+    padding-right: 41px;
+}
+
+.bs-vertical-wizard ul>li:last-child>a:before {display:none;}
+.bs-vertical-wizard ul>li.current>a:before {
+    background-color: #713C75;
+    opacity: 1;
+}
+
+.bs-vertical-wizard ul>li.current>a:after {
+    border-color: #713C75;
+    background-color: #713C75;
+    opacity: 1;
+}
+li.current.active:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 20px solid #713C75;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    right: 0;
+    top: 34px;
+}
+
+/*==========step bar vertical================================*/
+.upload-button {
+    border: 1px solid #ced4da;
+    padding: 3rem;
+    text-align: center;
+    border-radius: 5px;
+}
+button.btn.btn_image {
+    background:#713C75;
+    border-radius: 50%;
+    color: black;
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 0;
+}
+.inventory-info-one {
+    padding-left: 0;
+}
+.inventory-info img {
+    width:100%;
+}
+
+/*=========custom css for add category page for select category===========*/
+input[type="radio"][id^="myradio"] {
+  display: none;
+}
+input[type="checkbox"][id^="myCheckbox"] {
+  display: none;
+}
+.product-category label {
+  border: 2px solid #959595;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 1rem;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 14px;
+    color: #999999;
+    font-weight:600;
+}
+.product-category label span {
+    margin: 0 8px;
+}
+.product-category :checked + label {
+  border-color: #713C75;
+  color: black;
+  font-weight:600;
+}
+.product-category :checked + label img{
+    opacity: 1;
+}
+.product-category label img{
+    opacity: 0.5;
+}
+.product-availablity label {
+    padding: 0.8rem 1rem;
+}
+/*=========end custom css for add category page for select category===========*/
+
+/*=======================home page css=========================*/
+
+/*=======================end home page css=========================*/
